@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  Jonathan Fernandez Luis</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdn.rawgit.com/jotform/before-after.js/master/before-after.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/4.0.6/sweetalert2.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/humane-js/3.2.2/themes/libnotify.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.2/toastr.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div><h1>Ejemplos</h1></div>
+<!-- Slider -->
+<div class="slider">
+  <p>Slider</p>
+  <div><img src="https://cceea.mx/wp-content/uploads/2016/04/arbol-fotosintesis-inversa-blog-cceea.jpg" alt="foto1"></div>
+  <div><img src="http://yaunikum.ru/uploads/posts/2011-04/1301900703_1301641155_1004.jpg" alt="foto2"></div>
+  <div><img src="http://img.informador.com.mx/biblioteca/imagen/677x508/1235/1234689.jpg" alt="foto3"></div>
+  <div><img src="http://2.bp.blogspot.com/-O42raWFFr3E/Vfc8KRgVsZI/AAAAAAAAMaA/_4FJCLgY3cY/s640/%25C3%25A1rbol-del-tule-2-730x487.jpg" alt="foto4"></div>
+</div>
+<!-- Recomendación: Imágenes con mismo formato (al menos mismo alto) -->
+<!---------------------------------------------->
+
+<!-- before-after slider -->
+<div><p>before-after</p></div>
+<div class="ba-slider">
+  <!-- Imagen del después -->
+  <img src="https://analisisdeldiscursoesj3.files.wordpress.com/2015/06/arbol03.jpg?w=640" alt="Después">
+  <!-- Imagen del después -->
+  <div class="resize">
+    <img src="http://1.bp.blogspot.com/_Tk8FwnELnH0/S8dzJ7kstVI/AAAAAAAAA9Q/YvnfHHNk-Eo/w1200-h630-p-k-nu/arboles.jpg" alt="Antes">
+  </div>
+  <!-- Separador -->
+  <span class="handle"></span>
+</div>
+<!---------------------------------------------->
+
+<div data-accordion-group>
+  <p>Acordeón</p>
+  <!-- Acordeón 1 -->
+  <div class="accordion" data-accordion>
+    <div data-control>Control</div>
+    <div data-content>
+      <div>Contenido1</div>
+      <div>Contenido2</div>
+    </div>
+  </div>
+  <!-- Acordeón 2 -->
+</div>
+<!---------------------------------------------->
+
+<!-- Resto de contenido de la página -->
+<div id="modal-card">
+  <p>Ouibounce (cuadro de mensaje)</p>
+  <h4>¡Ey, amigo!</h4>
+  <p>¿Estás seguro de que vas a irte? Déjame tu e-mail, y te envío un ebook gratis:</p>
+  <form action="/send/" method="post">
+    <input type="text" name="email" required placeholder="tuemail@gmail.com">
+    <input type="submit" value="▶">
+  </form>
+  <a href="#" onClick="document.getElementById('modal-card').remove()">Sí, tío. Bye.</a>
+  <!-- Fondo gris -->
+  <div class="modal-background"></div>
+</div>
+<!---------------------------------------------->
+
+<div><p>SweetAlert2</p></div>
+<!-- Mensaje simple (todo en HTML) -->
+<button onClick="swal('Mensaje simple de texto')">Test simple</button>
+
+<!-- Mensaje compuesto (todo en HTML) -->
+<button onClick="swal('Título', 'Mensaje', 'question')">Test compuesto</button>
+
+<!-- Mensaje definido en Javascript (Avanzado) -->
+<button onClick="mensaje()">Avanzado</button>
+<!---------------------------------------------->
+<div>
+  <p>humane.js</p>
+  <button onClick="mensaje2()">info</button>
+</div>
+<!---------------------------------------------->
+<div>
+  <p>Toastr</p>
+  <button onClick="mensaje3()">info2</button>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdn.rawgit.com/jotform/before-after.js/master/before-after.min.js'></script>
+<script src='https://rawgit.com/vctrfrnndz/jquery-accordion/master/js/jquery.accordion.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/ouibounce/0.0.11/ouibounce.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/4.0.6/sweetalert2.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/humane-js/3.2.2/humane.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.2/toastr.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
