@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  Jonathan Fernandez Luis</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/jquery.cookieBar/0.0.1/cookieBar.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/awesomplete/1.1.1/awesomplete.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.2/css/selectize.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <!-- Opción 2: Personalizar mensaje -->
+<div><h1>Awesomplete</h1></div>
+<div class="cookie-message">
+  <p>Esta web utiliza cookies. Si sigue navegando, se entiende que acepta las condiciones de uso. 
+  <!-- Botón de cerrar -->
+<a class="close" href="#">Cerrar</a></p>
+</div>
+<!---------------------------------------------->
+<!-- Modo básico (sin JS) -->
+<div><p>1-Te sugiere a medida que escribes</p>
+  <input class="awesomplete"
+       data-list="Ada, Java, JavaScript, Brainfuck, LOLCODE, Node.js, Ruby on Rails"></div>
+
+<!-- Modo HTML5 (sin librería) -->
+<div><p>2-Te muestra todas la opciones disponibles al hacer click</p>
+  <input list="lenguajes">
+<datalist id="lenguajes">
+    <option>Ada</option>
+    <option>Java</option>
+    <option>JavaScript</option>
+    <option>Brainfuck</option>
+    <option>LOLCODE</option>
+</datalist></div>
+
+<!---------------------------------------------->
+<div><h1>Selectize</h1>
+<p>Te va etiquetando palabra por palabra a medida que las introduces</p></div>
+<input id="input-tags">
+<div><button class="viewTags">no funciona el boton</button></div>
+
+<!---------------------------------------------->
+<div><h1>TableSort(no funciona)</h1>
+<table id="tablesort">
+  <th class="no-sort">producto</th>
+  <th>cantidad</th>
+  <th>precio</th>
+<tr>
+  <td>pan</td>
+  <td>5</td>
+  <td>0.40</td>
+</tr>
+<tr>
+  <td>leche</td>
+  <td>2</td>
+  <td>1.2</td>
+</tr>
+<tr>
+  <td>queso</td>
+  <td>7</td>
+  <td>1.50</td>
+</tr>
+  <tr>
+  <td>manzana</td>
+  <td>4</td>
+  <td>0.20</td>
+</tr>
+  <tr>
+  <td>espada</td>
+  <td>1</td>
+  <td>8</td>
+</tr>
+</table></div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/awesomplete/1.1.1/awesomplete.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.cookieBar/0.0.1/jquery.cookieBar.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.2/js/standalone/selectize.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/tablesort/4.1.0/tablesort.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/tablesort/4.1.0/src/sorts/tablesort.number.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
