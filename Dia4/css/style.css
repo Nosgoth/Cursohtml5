@@ -1,0 +1,22 @@
+.chart,.chart2 {
+  width: 600px;
+  height: 400px;
+}
+
+/*.chart .ct-series-c line,   
+.chart .ct-series-c path {  
+  stroke: #0F0;
+}*/
+/*----------------------------------*/
+
+/* Damos tamaño (y posición) a la tarjeta */
+#card {
+  width: 600px;
+  height: 400px;
+  /*margin: auto;*/
+}
+#card > img {
+  border: 15px solid #FFF;
+  box-shadow: 0 0 10px RGBA(0,0,0, .5);
+}
+/*----------------------------------*/
